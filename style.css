@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 223, 237);  
+    display: flex;
+    justify-content: center; 
+    margin: 15% auto 15% auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{    
+    min-height: 74vh;
+    width: 400px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: white;   
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+h4{
+    padding: 0 10px 0 10px;
+    color: rgb(18, 18, 77);
+    font-weight: bold; 
+    font-size: 23px
+}
+p{
+    color: rgb(146, 143, 143);
+}
+img{
+    height: 370px;
+}
+.card, img{
+    border-radius: 15px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
